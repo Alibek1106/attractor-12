@@ -1,0 +1,284 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 13px;
+	margin: 0;
+	color: #2d2d2d;
+	background: linear-gradient(to right, #d8f1fa, #fff);
+	line-height: 1.3;
+	min-width: 840px;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1020px;
+	margin: 0 auto;
+	padding: 0 19px;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header{
+	padding: 48px 0 40px;
+	position: relative;
+}
+
+.header-inner{
+	background: linear-gradient(to right, transparent 0%, transparent 45%, #4c9ede 45%, #4c9ede 100%);
+}
+
+.header-img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-42%);
+	height: 100%;
+	width: auto;
+	z-index: 5;
+}
+
+.header-content{
+	position: relative;
+	z-index: 6;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.phones{
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	padding: 20px 23px 17px 0;
+	text-align: right;
+}
+
+.phones p{
+	margin: 0;
+	line-height: 30px;
+}
+
+.phones span{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.main-nav{
+	padding: 107px 0 40px;
+}
+
+.nav-wrapper{
+	display: flex;
+}
+
+.main-nav a{
+	display: block;
+	margin-right: 29px;
+	text-decoration: none;
+	color: #1b6fb6;
+	font-weight: 700;
+	font-style: italic;
+	border-bottom: 1px solid #1b6fb6;
+}
+
+.wrapper{
+	position: relative;
+	padding: 33px 0 0;
+}
+
+.aside{
+	float: left;
+	width: 300px;
+}
+
+.main-block{
+	float: right;
+	width: calc(100% - 300px);
+}
+
+.main-headers{
+	color: #3b3d81;
+	font-size: 22px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	margin: 0;
+}
+
+.aside-header{
+	margin-bottom: 63px;
+}
+
+.main-block-header{
+	margin-bottom: 10px;
+}
+
+.aside-list{
+	color: #1b6fb6;
+	list-style: none;
+	padding: 0;
+}
+
+.aside-list li{
+	padding: 13px 0 24px 53px;
+	margin-right: 60px;
+	border-top: 1px dashed #717a7d;
+	background-repeat: no-repeat;
+	background-position: 8px 50%;
+}
+
+.first-li{
+	background-image: url('../images/first-li.png');
+}
+
+.second-li{
+	background-image: url('../images/second-li.png');
+}
+
+.third-li{
+	background-image: url('../images/third-li.png');
+}
+
+.aside-list li:last-child{
+	border-bottom: 1px dashed #717a7d;
+}
+
+.li-links{
+	text-decoration: none;
+	color: inherit;
+}
+
+.bottom-line{
+	border-bottom: 1px solid #1b6fb6;
+}
+
+.sum{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 11px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+	background-image: url('../images/order.png');
+	background-repeat: no-repeat;
+}
+
+.sum-num{
+	font-size: 18px;
+}
+
+
+.main-table{
+	width: 100%;
+}
+
+.main-table td{
+	border-bottom: 1px dashed #000;
+	padding: 12px 0;
+}
+
+.thead td{
+	font-size: 11px;
+	color: #787878;
+	text-align: center;
+}
+
+.main-table input{
+	width: 55px;
+	text-align: center;
+}
+
+.main-table button{
+	padding: 5px;
+	border: 0;
+	box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 4px;
+	transform: translate(70%);
+}
+
+.main-table td:first-child{
+	padding-right: 29px;
+}
+
+.main-table td:nth-child(2){
+	color: #1b6fb6;
+	text-decoration: underline;
+}
+
+#name-td{
+	font-size: 11px;
+	color: #787878;
+	text-align: center;
+	text-decoration: none;
+}
+
+.price{
+	text-align: end;
+}
+
+.recount{
+	display: block;
+	margin-left: auto;
+	border: 0;
+	background-color: transparent;
+	text-decoration: underline;
+	font-size: 14px;
+	color: #1b6fb6;
+	margin-top: 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.total-price{
+	font-size: 14px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.bigger{
+	font-size: 20px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.make-order{
+	margin-top: 20px;
+	display: block;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	background-color: #279375;
+	font-size: 18px;
+	padding: 8px 6px;
+	border-radius: 3px;
+	border: 0;
+	margin-bottom: 10px;
+	box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.39);
+	box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.49);
+	border: 1px solid rgba(0, 47, 38, 0.66);
+}
+
+.footer{
+	background-color: #ebebee;
+	padding: 40px 0 55px;
+	margin-top: 79px;
+}
+
+.footer-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-link{
+	color: #1b6fb6;
+	padding-left: 15px;
+}

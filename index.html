@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<header class="header">
+		<div class="header-inner">
+			<div class="container header-content">
+				<a href="#" class="logo">
+					<img src="images/logo.png" alt="ХимОптТорг" width="319" height="61">
+				</a>
+				<div class="phones">
+					<p><span>(473)</span> 223-18-14</p>
+					<p>227-70-30</p>
+					<p>223-06-11</p>
+				</div>
+			</div>
+			<img src="images/header-img.png" alt="" class="header-img" width="454" height="224">
+		</div>
+	</header>
+	<nav class="main-nav">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#">Каталог</a>
+                <a href="#">О компании</a>
+                <a href="#">Контакты</a>
+                <a href="#">Заказ продукции</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="wrapper clearfix">
+                    <aside class="aside">
+                        <h2 class="aside-header main-headers">Каталог товаров</h2>
+                        <ul class="aside-list">
+                            <li class="first-li"><a href="#" class="li-links"><span class="bottom-line">Лакокрасочная</span><br><span class="bottom-line">продукция</span></a></li>
+                            <li class="second-li"><a href="#" class="li-links"><span class="bottom-line">Резино-технические</span><br><span class="bottom-line">изделия</span></a></li>
+                            <li class="third-li"><a href="#" class="li-links"><span class="bottom-line">Асбестотехнические</span><br><span class="bottom-line">изделия</span></a></li>
+                        </ul>
+                    </aside>
+                    <div class="main-block">
+                        <h2 class="main-block-header main-headers">Ваш заказ</h2>
+                        <span class="sum">Ваш заказ на сумму<br><span class="sum-num">34 500 Р</span></span>
+                        <table class="main-table">
+                            <thead class="thead">
+                                <tr>
+                                    <td>Артикул</td>
+                                    <td id="name-td">Наименование</td>
+                                    <td>Единица</td>
+                                    <td>Кол-во</td>
+                                    <td>Стоимость<br>(руб.)</td>
+                                    <td>Удалить</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>00000001973</td>
+                                    <td>Масло фреоновое B5.2 ( 1 л)</td>
+                                    <td>банка</td>
+                                    <td><input type="text" value="10"></td>
+                                    <td class="price">135,00</td>
+                                    <td><button type="button"><img src="images/x.png" alt=""></button></td>
+                                </tr>
+                                <tr>
+                                    <td>16556</td>
+                                    <td>Стабилизатор хлора</td>
+                                    <td>банка</td>
+                                    <td><input type="text" value="30"></td>
+                                    <td class="price">330,00</td>
+                                    <td><button type="button"><img src="images/x.png" alt=""></button></td>
+                                </tr>
+                                <tr>
+                                    <td>11431</td>
+                                    <td>Очиститель от накипи «Super»</td>
+                                    <td>бутыль</td>
+                                    <td><input type="text" value="1"></td>
+                                    <td class="price">145,00</td>
+                                    <td><button type="button"><img src="images/x.png" alt=""></button></td>
+                                </tr>
+                                <tr>
+                                    <td>00000003413</td>
+                                    <td>Кальций хлористый пищевой (25 кг)</td>
+                                    <td>мешки</td>
+                                    <td><input type="text" value="10"></td>
+                                    <td class="price">250,00</td>
+                                    <td><button type="button"><img src="images/x.png" alt=""></button></td>
+                                </tr>
+                                <tr>
+                                    <td>00000000176</td>
+                                    <td>Стиральный порошок«Лотос» (20 кг)</td>
+                                    <td>мешки</td>
+                                    <td><input type="text" value="1"></td>
+                                    <td class="price">11,45</td>
+                                    <td><button type="button"><img src="images/x.png" alt=""></button></td>
+                                </tr>
+                                <tr>
+                                    <td>00000000173</td>
+                                    <td>Масло фреоновое BSE32 ( 5 л )</td>
+                                    <td>банка</td>
+                                    <td><input type="text" value="1"></td>
+                                    <td class="price">156,00</td>
+                                    <td><button type="button"><img src="images/x.png" alt=""></button></td>
+                                </tr>
+                                <tr>
+                                    <td>00000003051</td>
+                                    <td>Масло фреоновое BSE32 (10 л)</td>
+                                    <td>банка</td>
+                                    <td><input type="text" value="1"></td>
+                                    <td class="price">291,00</td>
+                                    <td><button type="button"><img src="images/x.png" alt=""></button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button class="recount">Пересчитать</button>
+                        <span class="total-price">Общая сумма заказа: <span class="bigger">34 500.00 р.</span></span>
+                        <button class="make-order" type="button">Оформить заказ</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <p>© ООО «ХИМОПТТОРГ»<br><a class="footer-link" href="#">hot@hot.vrn.ru</a></p>
+                <a href="#"><img src="images/footer-logo.png" alt="MysteryGroup"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
